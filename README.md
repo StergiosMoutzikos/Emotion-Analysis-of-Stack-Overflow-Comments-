@@ -71,7 +71,7 @@ WHERE RAND() < 0.00025
 ├──  comments.csv                             # Raw comments dataset
 ├──  posts_answers.csv                        # Posts/answers dataset
 ├──  users.csv                                # Users dataset
-├──  comments_with_emotions.csv               
+├──  comments_with_emotions.csv               # could not upload due to size, the csv file with the comments parsed
 │
 ├──  Report_with_Code_Appendix.pdf            # Full academic report (Greek) with code appendix
 ├──  Inf2021149_Emotional_Analysis.pdf        # Exported notebook as PDF
