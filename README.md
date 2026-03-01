@@ -48,14 +48,6 @@ Data was sourced from the **Google BigQuery Stack Overflow public dataset** via 
 
 >  **Note:** `comments_with_emotions.csv` is **not included** in this repository due to its large file size (>31MB). You can regenerate it by running the notebook, or download it separately if provided via an external link.
 
-### BigQuery Sampling Query (see `inf2021149_kaggle_dataset_query.ipynb`)
-```python
-# Comments sampled at ~0.025% of the full dataset
-SELECT id, text, post_id, user_id, score
-FROM `bigquery-public-data.stackoverflow.comments`
-WHERE RAND() < 0.00025
-```
-
 ---
 
 ## Project Structure
@@ -79,47 +71,6 @@ WHERE RAND() < 0.00025
 └──  README.md                                # This file
 ```
 
----
-
-## Installation
-
-### Prerequisites
-- Python 3.10+
-- pip
-
-### 1. Clone the repository
-```bash
-git clone https://github.com/YOUR_USERNAME/stackoverflow-emotion-analysis.git
-cd stackoverflow-emotion-analysis
-```
-
-### 2. (Optional) Create a virtual environment
-```bash
-python -m venv venv
-source venv/bin/activate       # macOS/Linux
-venv\Scripts\activate          # Windows
-```
-
-### 3. Install dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### 4. Install additional required packages
-```bash
-pip install pandas numpy matplotlib seaborn scikit-learn transformers torch tqdm nltk
-```
-
-### 5. Download NLTK resources
-```python
-import nltk
-nltk.download('punkt')
-nltk.download('wordnet')
-nltk.download('omw-1.4')
-nltk.download('stopwords')
-```
-
----
 
 ## Usage
 
