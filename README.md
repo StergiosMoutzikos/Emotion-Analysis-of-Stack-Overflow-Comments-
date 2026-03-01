@@ -11,8 +11,6 @@
 - [Overview](#overview)
 - [Dataset](#dataset)
 - [Project Structure](#project-structure)
-- [Installation](#installation)
-- [Usage](#usage)
 - [Methodology](#methodology)
 - [Key Findings](#key-findings)
 - [Results & Visualizations](#results--visualizations)
