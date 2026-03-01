@@ -72,30 +72,7 @@ Data was sourced from the **Google BigQuery Stack Overflow public dataset** via 
 ```
 
 
-## Usage
 
-### Running the Full Analysis
-
-Open and run the main notebook:
-```bash
-jupyter notebook Inf2021149_Emotional_Analysis.ipynb
-```
-
-Run all cells in order. **Note:** The emotion inference step (GoEmotions batch inference) is computationally intensive and may take **~38 minutes** on CPU (as recorded: 2296 seconds).
-
-### Skipping Emotion Inference
-
-If you have (or download) `comments_with_emotions.csv`, place it in the project root and the notebook will load it directly at **Section 1.10**, skipping the inference step.
-
-### Data Collection (Optional)
-
-If you want to re-collect data from BigQuery:
-```bash
-jupyter notebook inf2021149_kaggle_dataset_query.ipynb
-```
-> Requires a Kaggle account with BigQuery integration enabled.
-
----
 
 ## Methodology
 
