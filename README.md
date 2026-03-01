@@ -10,7 +10,6 @@
 
 - [Overview](#overview)
 - [Dataset](#dataset)
-- [Project Structure](#project-structure)
 - [Methodology](#methodology)
 - [Key Findings](#key-findings)
 - [Results & Visualizations](#results--visualizations)
@@ -48,26 +47,6 @@ Data was sourced from the **Google BigQuery Stack Overflow public dataset** via 
 
 ---
 
-## Project Structure
-
-```
- stackoverflow-emotion-analysis/
-│
-├──  Inf2021149_Emotional_Analysis.ipynb     # Main analysis notebook
-├──  inf2021149_kaggle_dataset_query.ipynb   # BigQuery data extraction notebook
-│
-├──  requirements.txt                         # Python dependencies
-│
-├──  comments.csv                             # Raw comments dataset
-├──  posts_answers.csv                        # Posts/answers dataset
-├──  users.csv                                # Users dataset
-├──  comments_with_emotions.csv               # could not upload due to size, the csv file with the comments parsed
-│
-├──  Report_with_Code_Appendix.pdf            # Full academic report (Greek) with code appendix
-├──  Inf2021149_Emotional_Analysis.pdf        # Exported notebook as PDF
-│
-└──  README.md                                # This file
-```
 
 
 
